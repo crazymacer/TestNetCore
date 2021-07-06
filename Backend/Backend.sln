@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend", "Backend.csproj", "{D5C43941-8AE0-476B-A81C-CF6C0AFD424A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "..\Core\Core.csproj", "{C85E715D-690B-4763-A62C-5040F258D60E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "..\Infrastructure\Infrastructure.csproj", "{F37FEE31-13AD-4524-A129-AEE32B0022F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5C43941-8AE0-476B-A81C-CF6C0AFD424A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5C43941-8AE0-476B-A81C-CF6C0AFD424A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5C43941-8AE0-476B-A81C-CF6C0AFD424A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5C43941-8AE0-476B-A81C-CF6C0AFD424A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C85E715D-690B-4763-A62C-5040F258D60E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C85E715D-690B-4763-A62C-5040F258D60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C85E715D-690B-4763-A62C-5040F258D60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C85E715D-690B-4763-A62C-5040F258D60E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F37FEE31-13AD-4524-A129-AEE32B0022F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F37FEE31-13AD-4524-A129-AEE32B0022F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F37FEE31-13AD-4524-A129-AEE32B0022F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F37FEE31-13AD-4524-A129-AEE32B0022F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35F0BE26-68BA-4190-AF7E-ABD06DD998D8}
+	EndGlobalSection
+EndGlobal
